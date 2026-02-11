@@ -1,0 +1,54 @@
+This file contains the contents for results.html which will display the summary
+You have to make this one- right click on templates and make new file and name it results.html
+--- Copy/paste starting from here ---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Summary Result</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 40px;
+    }
+
+    .box {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    h2 {
+      color: #ff0000;
+      margin-bottom: 20px;
+    }
+
+    pre {
+      white-space: pre-wrap;
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #ff0000;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <h2>Video Summary</h2>
+
+    <pre>{{ summary }}</pre>
+
+    <a href="/">Back</a>
+  </div>
+</body>
+</html>
