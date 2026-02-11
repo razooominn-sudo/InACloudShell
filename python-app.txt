@@ -4,7 +4,8 @@ requests==2.31.0
 debugpy # Required for debugging.
 google-genai==1.2.0
 
-After doing that open new terminal and paste this
+After doing that open a new terminal and paste this:
+
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -16,6 +17,7 @@ Afterwards do this
 
 This is the main python code copy and paste this ino app.py
 Remember: Repalce "REPLACE_WITH_YOUR_PROJECT_ID" with your own project ID.
+
 --- Copy/Paste starting from here ---
 
 import os
