@@ -168,7 +168,7 @@ Paste this in index.html
 </div>
 
 
-      <div class="title">YouTube Summarizer</div>
+      <div class="title">CloudTube Summarizer</div>
     </div>
 
     <!-- Form -->
