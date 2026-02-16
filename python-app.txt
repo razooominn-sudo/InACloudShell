@@ -96,7 +96,7 @@ def summarize():
        try:
            summary = generate(youtube_link, model, additional_prompt)
            from flask import render_template
-           return render_template("result.html", summary=summary)
+           return render_template("results.html", summary=summary)
 
 
        except ValueError as e:
