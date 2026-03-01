@@ -28,7 +28,7 @@ from google.genai import types
 
 app = Flask(__name__)
 
-PROJECT_ID = "ytsummarizer2-487010"
+PROJECT_ID = "REPLACE_WITH_YOUR_PROJECT_ID"
 
 client = genai.Client(
    vertexai=True,
