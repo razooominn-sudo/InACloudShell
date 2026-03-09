@@ -1,4 +1,5 @@
-Firstly, you will need to add Google Gen AI SDK library to requirements.txt file. It should looks like this:
+Firstly, you will need to add Google Gen AI SDK library to requirements.txt file.
+
 Flask==2.3.3
 requests==2.31.0
 debugpy # Required for debugging.
@@ -10,10 +11,7 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-Wait for it to install sucessfully
-Ensure you have updated requiremnts.txt before pasting the above on the terminal
 
-Afterwards do this
 
 This is the main python code copy and paste this ino app.py
 Remember: Repalce "REPLACE_WITH_YOUR_PROJECT_ID" with your own project ID.
